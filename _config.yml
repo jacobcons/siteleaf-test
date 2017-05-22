@@ -11,6 +11,13 @@ collections:
   people:
     title: people
     output: true
+    People:
+    - name: Donald Duck
+      image: "/uploads/character_mickeymouse_donaldduck_d79720c3-35f17d.jpg"
+    - name: Micky Mouse
+      image: "/uploads/Mickey_Mouse_Clubhouse_Promo_Art.png"
+    - name: Minnie Mouse
+      image: "/uploads/50de21e5cc1cb5fcf3cd68e6eb8a3f59.png"
 defaults:
 - scope:
     path: ''
