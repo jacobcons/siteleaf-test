@@ -11,7 +11,7 @@ collections:
   developers:
     title: employees
     output: true
-    People:
+    developers:
     - name: Donald Duck
       image: "/uploads/character_mickeymouse_donaldduck_d79720c3-35f17d.jpg"
     - name: Micky Mouse
