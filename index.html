@@ -1,7 +1,12 @@
 ---
 layout: default
-title: Siteleaf test
+title: Siteleaf Test
 ---
-{{% for people in people.People %}}
-	{{ people.name }}
-{{% endfor %}}
+<h1>Home</h1>
+<h2>Employees:</h2>
+<h3>Developers:</h3>
+{% for developer in site.employees.developers %}
+	{{ developer.name }}
+{% endfor %}
+
+{{ site.employees.developers }}
